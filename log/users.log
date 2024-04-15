@@ -1,0 +1,44 @@
+2024-01-29 15:46:37,985 INFO com.adp.ELetterApplication [restartedMain] Starting ELetterApplication using Java 17.0.4.1 with PID 5668 (C:\ELetter\target\classes started by vsaiteja in C:\ELetter)
+2024-01-29 15:46:38,007 DEBUG com.adp.ELetterApplication [restartedMain] Running with Spring Boot v3.1.5, Spring v6.0.13
+2024-01-29 15:46:38,010 INFO com.adp.ELetterApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-01-29 15:46:38,144 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\vsaiteja\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.9.0.0\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/vsaiteja/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+2024-01-29 15:46:38,144 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-29 15:46:38,145 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-29 15:46:40,238 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-29 15:46:40,417 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 153 ms. Found 2 JPA repository interfaces.
+2024-01-29 15:46:42,825 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8085 (http)
+2024-01-29 15:46:42,845 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8085"]
+2024-01-29 15:46:42,850 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-01-29 15:46:42,851 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-01-29 15:46:43,018 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-01-29 15:46:43,018 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4872 ms
+2024-01-29 15:46:43,689 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-29 15:46:43,873 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-01-29 15:46:43,880 INFO org.hibernate.cfg.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2024-01-29 15:46:44,601 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-29 15:46:44,650 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-01-29 15:46:44,655 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2024-01-29 15:46:45,599 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3eb17c3f
+2024-01-29 15:46:45,604 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-01-29 15:46:47,965 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-29 15:47:20,117 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29 15:47:22,649 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-29 15:47:25,831 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-01-29 15:47:25,853 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8085"]
+2024-01-29 15:47:25,890 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8085 (http) with context path ''
+2024-01-29 15:47:25,903 INFO com.adp.ELetterApplication [restartedMain] Started ELetterApplication in 48.858 seconds (process running for 52.556)
+2024-01-29 15:48:13,068 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8085-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29 15:48:13,068 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-29 15:48:13,070 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Completed initialization in 2 ms
+2024-01-29 15:48:40,805 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8085-exec-1] Init duration for springdoc-openapi is: 622 ms
+2024-01-29 15:57:43,029 INFO com.adp.aspect.LoggingAspect [http-nio-8085-exec-1] Before invoking method com.adp.controller.BasicCandidateController in class {}getCandidates
+2024-01-29 16:01:18,103 INFO com.adp.aspect.LoggingAspect [http-nio-8085-exec-7] Before invoking method com.adp.controller.BasicCandidateController in class {}getTotalBasicCandidates
+2024-01-29 16:12:45,025 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(33)-127.0.0.1] Application shutdown requested.
+2024-01-29 16:12:45,053 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(33)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2024-01-29 16:12:45,054 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(33)-127.0.0.1] Stopping service [Tomcat]
+2024-01-29 16:12:45,056 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(33)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-01-29 16:12:45,060 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(33)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2024-01-29 16:12:45,063 INFO org.apache.coyote.http11.Http11NioProtocol [RMI TCP Connection(33)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2024-01-29 16:12:45,065 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(33)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29 16:12:45,069 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(33)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2024-01-29 16:12:45,302 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(33)-127.0.0.1] HikariPool-1 - Shutdown completed.
